@@ -1,0 +1,54 @@
+{
+  "verbs": {
+    "enroll": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#enroll",
+      "display": {
+        "en": "enrolled",
+        "ko": "등록했다"
+      }
+    },
+    "complete": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#complete",
+      "display": {
+        "en": "completed module",
+        "ko": "완료했다"
+      }
+    },
+    "submit": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#submit",
+      "display": {
+        "en": "submitted",
+        "ko": "제출했다"
+      }
+    }
+  },
+  "objects": {
+    "course": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#course",
+      "definition": {
+        "name": {
+          "en": "course",
+          "ko": "강좌"
+        }
+      }
+    },
+    "module": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#module",
+      "definition": {
+        "name": {
+          "en": "module",
+          "ko": "모듈"
+        }
+      }
+    },
+    "assignment": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube-v1.json#assignment",
+      "definition": {
+        "name": {
+          "en": "assignment",
+          "ko": "과제"
+        }
+      }
+    }
+  }
+}
