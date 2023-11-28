@@ -1,0 +1,35 @@
+{
+    "verbs": {
+      "simulate": {
+        "id": "https://example.com/verbs/simulate",
+        "display": {
+          "en": "Simulate"
+        }
+      },
+      "complete_simulation": {
+        "id": "https://example.com/verbs/complete_simulation",
+        "display": {
+          "en": "Complete Simulation"
+        }
+      }
+    },
+    "objects": {
+      "simulation_scenario": {
+        "id": "https://example.com/objects/simulation_scenario",
+        "definition": {
+          "name": {
+            "en": "Simulation Scenario"
+          }
+        }
+      },
+      "simulation_result": {
+        "id": "https://example.com/objects/simulation_result",
+        "definition": {
+          "name": {
+            "en": "Simulation Result"
+          }
+        }
+      }
+    }
+  }
+  
