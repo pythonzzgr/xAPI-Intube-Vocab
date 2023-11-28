@@ -1,35 +1,54 @@
 {
-    "verbs": {
-      "simulate": {
-        "id": "https://example.com/verbs/simulate",
-        "display": {
-          "en": "Simulate"
-        }
-      },
-      "complete_simulation": {
-        "id": "https://example.com/verbs/complete_simulation",
-        "display": {
-          "en": "Complete Simulation"
+  "verbs": {
+    "enroll": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#enroll",
+      "display": {
+        "en": "enrolled",
+        "ko": "등록했다"
+      }
+    },
+    "complete": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#complete",
+      "display": {
+        "en": "completed module",
+        "ko": "완료했다"
+      }
+    },
+    "submit": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#submit",
+      "display": {
+        "en": "submitted",
+        "ko": "제출했다"
+      }
+    }
+  },
+  "objects": {
+    "course": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#course",
+      "definition": {
+        "name": {
+          "en": "course",
+          "ko": "강좌"
         }
       }
     },
-    "objects": {
-      "simulation_scenario": {
-        "id": "https://example.com/objects/simulation_scenario",
-        "definition": {
-          "name": {
-            "en": "Simulation Scenario"
-          }
+    "module": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#module",
+      "definition": {
+        "name": {
+          "en": "module",
+          "ko": "모듈"
         }
-      },
-      "simulation_result": {
-        "id": "https://example.com/objects/simulation_result",
-        "definition": {
-          "name": {
-            "en": "Simulation Result"
-          }
+      }
+    },
+    "assignment": {
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/intube-vocab-v1.json#assignment",
+      "definition": {
+        "name": {
+          "en": "assignment",
+          "ko": "과제"
         }
       }
     }
   }
-  
+}
