@@ -1,21 +1,21 @@
 {
   "verbs": {
     "enroll": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#enroll",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#enroll",
       "display": {
         "en": "enrolled",
         "ko": "등록했다"
       }
     },
     "complete": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#complete",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#complete",
       "display": {
         "en": "completed module",
         "ko": "완료했다"
       }
     },
     "submit": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#submit",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#submit",
       "display": {
         "en": "submitted",
         "ko": "제출했다"
@@ -24,7 +24,7 @@
   },
   "objects": {
     "course": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#course",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#course",
       "definition": {
         "name": {
           "en": "course",
@@ -33,7 +33,7 @@
       }
     },
     "module": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#module",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#module",
       "definition": {
         "name": {
           "en": "module",
@@ -42,7 +42,7 @@
       }
     },
     "assignment": {
-      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json.json#assignment",
+      "id": "https://raw.githubusercontent.com/pythonzzgr/xAPI-Intube-Vocab/main/custom-vocab-intube.json#assignment",
       "definition": {
         "name": {
           "en": "assignment",
